@@ -1,0 +1,49 @@
+.Card {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  height: 114px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Card p {
+  margin: 0;
+}
+.Card__Img {
+  width: 70px;
+  height: 70px;
+  margin: auto 10px;
+}
+.Card__Info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  justify-content: space-around;
+  margin: 30px 20px;
+}
+.Card__Date {
+  font-weight: 700;
+  text-transform: lowercase;
+}
+.Card__Day {
+  font-size: 30px;
+}
+
+.Card__Label {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 10px;
+  color: #323232;
+}
+.Card__Value {
+  font-weight: 700;
+  font-size: 16px;
+  color: #5887ff;
+}
