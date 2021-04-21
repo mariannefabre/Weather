@@ -10,7 +10,7 @@ function App() {
 
   const fetchForecast = () => {
     /*  const cityName = "Paris";
-    const apiKey = "";
+    const apiId = "";
     const nbDays = "7";
     const endpoint =
       "https://api.openweathermap.org/data/2.5/forecast/daily?q=" +
@@ -18,7 +18,7 @@ function App() {
       "&cnt=" +
       nbDays +
       "&appid=" +
-      apiKey; */
+      apiId; */
     const endpoint = "./daily.json";
     fetch(endpoint)
       .then((response) => response.json())
