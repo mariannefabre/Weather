@@ -10,39 +10,38 @@
 .Card p {
   margin: 0;
 }
-.Card__Img {
+.Card__img {
   width: 70px;
   height: 70px;
   margin: auto 10px;
 }
-.Card__Info {
+.Card__info {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
   margin: 0;
 }
-.Container {
+.Card__metric-container {
   display: flex;
   flex-direction: column;
   width: 35%;
   justify-content: space-around;
   margin: 30px 20px;
 }
-.Card__Date {
+.Card__date {
   font-weight: 700;
   text-transform: lowercase;
 }
-.Card__Day {
+.Card__day {
   font-size: 30px;
 }
-
-.Card__Label {
+.Card__label {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 10px;
   color: #323232;
 }
-.Card__Value {
+.Card__value {
   font-weight: 700;
   font-size: 16px;
   color: #5887ff;

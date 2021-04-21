@@ -1,30 +1,30 @@
 .Slider {
   width: 180px;
 }
-.Slider__Info {
+.Slider__info {
   width: 100%;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
   text-transform: uppercase;
 }
-.Slider__Title {
+.Slider__title {
   font-weight: 500;
   font-size: 10px;
   color: #fff;
 }
-.Slider__Value {
+.Slider__value {
   font-weight: 700;
   font-size: 16px;
   color: #5887ff;
 }
-.Slider__Container {
+.Slider__container {
   width: 100%;
   height: 30px;
   background: rgba(255, 255, 255, 0.4);
   border-radius: 110px;
 }
-.Slider__Input {
+.Slider__input {
   -webkit-appearance: none;
   width: -webkit-fill-available;
   height: 2px;
@@ -34,7 +34,7 @@
   margin: 14px 20px;
 }
 
-.Slider__Input::-webkit-slider-thumb {
+.Slider__input::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 16px;
@@ -44,7 +44,7 @@
   cursor: pointer;
 }
 
-.Slider__Input::-moz-range-thumb {
+.Slider__input::-moz-range-thumb {
   width: 25px;
   height: 25px;
   border-radius: 50%;

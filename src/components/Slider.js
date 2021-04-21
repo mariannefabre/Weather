@@ -7,20 +7,20 @@ export default function Slider(props) {
   };
   return (
     <div className="Slider">
-      <div className="Slider__Info">
-        <p className="Slider__Title">{props.title}</p>
-        <p className="Slider__Value">
+      <div className="Slider__info">
+        <p className="Slider__title">{props.title}</p>
+        <p className="Slider__value">
           {props.value}
           {props.unit}
         </p>
       </div>
-      <div className="Slider__Container">
+      <div className="Slider__container">
         <input
           type="range"
           min="0"
           max={props.maxValue}
           value={props.value}
-          className="Slider__Input"
+          className="Slider__input"
           name={props.name}
           onChange={handleChange}
         />

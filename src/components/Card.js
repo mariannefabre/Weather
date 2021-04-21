@@ -8,22 +8,22 @@ export default function Card(props) {
 
   return (
     <div className="Card">
-      <div className="Card__Info">
-        <img src={iconUrl} alt="weather" className="Card__Img" />
-        <div className="Card__Date">
+      <div className="Card__info">
+        <img src={iconUrl} alt="weather" className="Card__img" />
+        <div className="Card__date">
           <p>{weekday}</p>
-          <p className="Card__Day">{day}</p>
+          <p className="Card__day">{day}</p>
           <p>{month}</p>
         </div>
       </div>
-      <div className="Container">
-        <div className="">
-          <p className="Card__Label">min temp</p>
-          <p className="Card__Value">{props.minTemp}°C</p>
+      <div className="Card__metric-container">
+        <div className="Card__info">
+          <p className="Card__label">min temp</p>
+          <p className="Card__value">{props.minTemp}°C</p>
         </div>
-        <div className="Card__Info">
-          <p className="Card__Label">humidity</p>
-          <p className="Card__Value">{props.humidity}%</p>
+        <div className="Card__info">
+          <p className="Card__label">humidity</p>
+          <p className="Card__value">{props.humidity}%</p>
         </div>
       </div>
     </div>
